@@ -1,0 +1,2 @@
+uint8 servo_index
+float32 rotate_angle
