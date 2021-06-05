@@ -1,11 +1,18 @@
 <?xml version="1.0"?>
-<package>
-    <name>catix_messages</name>
-    <version>0.1.0</version>
-    <description>Catix messages</description>
-    <maintainer email="bot.catix@gmail.com">catix</maintainer>
-    <license>MIT</license>
-    <buildtool_depend>catkin</buildtool_depend>
-    <build_depend>std_msgs</build_depend>
-    <run_depend>std_msgs</run_depend>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>catix_messages</name>
+  <version>1.0.0</version>
+  <description>Messages to communicate between 'Catix' nodes</description>
+  <maintainer email="bot.catix@gmail.com">bot.catix</maintainer>
+  <license>MIT</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+  <buildtool_depend>rosidl_default_generators</buildtool_depend>
+  <exec_depend>rosidl_default_runtime</exec_depend>
+  <member_of_group>rosidl_interface_packages</member_of_group>
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
 </package>
